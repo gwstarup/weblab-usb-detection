@@ -1,0 +1,35 @@
+{
+  "name": "usb-detection",
+  "version": "0.1.0",
+  "description": "Fork from github.com/MadLittleMods/node-usb-detection",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "postinstall": "node-gyp rebuild"
+  },
+  "keywords":[
+	"gw"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gwstarup/weblab-usb-detection.git"
+  },
+  "homepage": "https://github.com/gwstarup/weblab-usb-detection"
+  },
+  "license": {
+    "type": "MIT"
+  },
+  "dependencies": {
+    "bindings": "1.1.0",
+    "bluebird": "^2.9.27",
+    "eventemitter2": ">=0.4.11",
+    "nan": "^2.0.9"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.1.0",
+    "chalk": "^1.0.0",
+    "mocha": "^2.2.5"
+  }
+}
