@@ -193,7 +193,6 @@ static void DeviceRemoved(struct udev_device* dev) {
 		item = new ListResultItem_t();
 		GetProperties(dev, item);
 	}
-
 	currentItem = item;
 	isAdded = false;
 
@@ -242,7 +241,7 @@ static void cbAsync(uv_async_t *handle) {
 	if (isRunning) {
 		if (isAdded) {
 			NotifyAdded(currentItem);
-		}
+		} 
 		else {
 			NotifyRemoved(currentItem);
 		}
@@ -274,7 +273,6 @@ static void BuildInitialDeviceList() {
 	   which contains the device's path in /sys. */
 	udev_list_entry_foreach(dev_list_entry, devices) {
 		const char *path;
-
 		/* Get the filename of the /sys entry for the device
 		   and create a udev_device object (dev) representing it */
 		path = udev_list_entry_get_name(dev_list_entry);
