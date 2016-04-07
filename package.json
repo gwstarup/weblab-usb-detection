@@ -1,0 +1,65 @@
+{
+  "name": "weblab-usb-detection",
+  "version": "0.2.0",
+  "description": "Fork from github.com/MadLittleMods/node-usb-detection",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "postinstall": "node-gyp rebuild",
+    "install": "node-gyp rebuild"
+  },
+  "keywords": [
+    "gw"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gwstarup/weblab-usb-detection.git"
+  },
+  "homepage": "https://github.com/gwstarup/weblab-usb-detection",
+  "license": {
+    "type": "MIT"
+  },
+  "dependencies": {
+    "bindings": "1.1.0",
+    "bluebird": "^2.9.27",
+    "eventemitter2": ">=0.4.11",
+    "nan": "^2.0.9"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.1.0",
+    "chalk": "^1.0.0",
+    "mocha": "^2.2.5"
+  },
+  "gitHead": "0c6b2066f460d96c7388ed83cbe1c7c205697de7",
+  "bugs": {
+    "url": "https://github.com/gwstarup/weblab-usb-detection/issues"
+  },
+  "_id": "weblab-usb-detection@0.1.0",
+  "_shasum": "a01deaa02f93eecfaab985af1b15a80c3b586317",
+  "_from": "weblab-usb-detection@>=0.1.0 <0.2.0",
+  "_npmVersion": "2.14.12",
+  "_nodeVersion": "4.2.4",
+  "_npmUser": {
+    "name": "gwstarup",
+    "email": "benny_lin@goodwill.com.tw"
+  },
+  "dist": {
+    "shasum": "a01deaa02f93eecfaab985af1b15a80c3b586317",
+    "tarball": "http://registry.npmjs.org/weblab-usb-detection/-/weblab-usb-detection-0.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "gwstarup",
+      "email": "benny_lin@goodwill.com.tw"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-13-west.internal.npmjs.com",
+    "tmp": "tmp/weblab-usb-detection-0.1.0.tgz_1457346974287_0.6172564041335136"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/weblab-usb-detection/-/weblab-usb-detection-0.1.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
